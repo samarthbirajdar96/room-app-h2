@@ -35,4 +35,11 @@ public class RoomController {
         return roomService.getRooms();
     }
 
+
+    @GetMapping ("samarth")
+
+    public String getname(){
+        return "samarth";
+    }
+
 }
